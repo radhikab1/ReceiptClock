@@ -1,0 +1,11 @@
+.DS_Sotre
+DerivedData/
+.build/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+.swiftpm/xcode/package.xcworkspace/

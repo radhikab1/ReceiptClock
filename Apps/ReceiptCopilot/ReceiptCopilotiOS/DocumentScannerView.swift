@@ -7,6 +7,7 @@
 import SwiftUI
 import VisionKit
 
+// Day 2
 struct DocumentScannerView: UIViewControllerRepresentable {
     var onComplete: ([UIImage]) -> Void
     var onCancel: () -> Void

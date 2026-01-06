@@ -1,6 +1,7 @@
 import Foundation
 import UIKit
 
+// Day 2
 final class ReceiptFileStore {
     static let shared = ReceiptFileStore()
     private init() {}

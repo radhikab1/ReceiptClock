@@ -1,5 +1,6 @@
 import Foundation
 import ReceiptCore
+import Combine
 
 // Day 2: Persist receipts list as JSON
 @MainActor

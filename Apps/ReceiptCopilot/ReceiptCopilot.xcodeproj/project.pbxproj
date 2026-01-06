@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A7DFE2202F0A6EC30027183E /* ReceiptCore in Frameworks */ = {isa = PBXBuildFile; productRef = A7DFE21F2F0A6EC30027183E /* ReceiptCore */; };
+		A7DFE2222F0A6ED20027183E /* ReceiptCore in Frameworks */ = {isa = PBXBuildFile; productRef = A7DFE2212F0A6ED20027183E /* ReceiptCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A7DFE1632F0A6CCC0027183E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,13 +26,57 @@
 			remoteGlobalIDString = A7DFE1542F0A6CCA0027183E;
 			remoteInfo = ReceiptCopilot;
 		};
+		A7DFE1902F0A6D200027183E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DFE14D2F0A6CCA0027183E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DFE1822F0A6D1F0027183E;
+			remoteInfo = ReceiptCopilotiOS;
+		};
+		A7DFE19A2F0A6D200027183E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DFE14D2F0A6CCA0027183E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DFE1822F0A6D1F0027183E;
+			remoteInfo = ReceiptCopilotiOS;
+		};
+		A7DFE1BB2F0A6D700027183E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DFE14D2F0A6CCA0027183E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DFE1AD2F0A6D6F0027183E;
+			remoteInfo = ReceiptCopilotMac;
+		};
+		A7DFE1C52F0A6D700027183E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DFE14D2F0A6CCA0027183E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DFE1AD2F0A6D6F0027183E;
+			remoteInfo = ReceiptCopilotMac;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A7DFE1552F0A6CCA0027183E /* ReceiptCopilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptCopilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DFE1622F0A6CCC0027183E /* ReceiptCopilotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptCopilotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DFE16C2F0A6CCC0027183E /* ReceiptCopilotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptCopilotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DFE1832F0A6D1F0027183E /* ReceiptCopilotiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptCopilotiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DFE18F2F0A6D200027183E /* ReceiptCopilotiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptCopilotiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DFE1992F0A6D200027183E /* ReceiptCopilotiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptCopilotiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DFE1AE2F0A6D6F0027183E /* ReceiptCopilotMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptCopilotMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DFE1BA2F0A6D700027183E /* ReceiptCopilotMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptCopilotMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DFE1C42F0A6D700027183E /* ReceiptCopilotMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptCopilotMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A7DFE26C2F0B70FA0027183E /* Exceptions for "ReceiptCopilotiOS" folder in "ReceiptCopilotiOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A7DFE1822F0A6D1F0027183E /* ReceiptCopilotiOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A7DFE1572F0A6CCA0027183E /* ReceiptCopilot */ = {
@@ -43,6 +92,39 @@
 		A7DFE16F2F0A6CCC0027183E /* ReceiptCopilotUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ReceiptCopilotUITests;
+			sourceTree = "<group>";
+		};
+		A7DFE1842F0A6D1F0027183E /* ReceiptCopilotiOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A7DFE26C2F0B70FA0027183E /* Exceptions for "ReceiptCopilotiOS" folder in "ReceiptCopilotiOS" target */,
+			);
+			path = ReceiptCopilotiOS;
+			sourceTree = "<group>";
+		};
+		A7DFE1922F0A6D200027183E /* ReceiptCopilotiOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReceiptCopilotiOSTests;
+			sourceTree = "<group>";
+		};
+		A7DFE19C2F0A6D200027183E /* ReceiptCopilotiOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReceiptCopilotiOSUITests;
+			sourceTree = "<group>";
+		};
+		A7DFE1AF2F0A6D6F0027183E /* ReceiptCopilotMac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReceiptCopilotMac;
+			sourceTree = "<group>";
+		};
+		A7DFE1BD2F0A6D700027183E /* ReceiptCopilotMacTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReceiptCopilotMacTests;
+			sourceTree = "<group>";
+		};
+		A7DFE1C72F0A6D700027183E /* ReceiptCopilotMacUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReceiptCopilotMacUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +151,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7DFE1802F0A6D1F0027183E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DFE2202F0A6EC30027183E /* ReceiptCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE18C2F0A6D200027183E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1962F0A6D200027183E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1AB2F0A6D6F0027183E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DFE2222F0A6ED20027183E /* ReceiptCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1B72F0A6D700027183E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1C12F0A6D700027183E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +204,13 @@
 				A7DFE1572F0A6CCA0027183E /* ReceiptCopilot */,
 				A7DFE1652F0A6CCC0027183E /* ReceiptCopilotTests */,
 				A7DFE16F2F0A6CCC0027183E /* ReceiptCopilotUITests */,
+				A7DFE1842F0A6D1F0027183E /* ReceiptCopilotiOS */,
+				A7DFE1922F0A6D200027183E /* ReceiptCopilotiOSTests */,
+				A7DFE19C2F0A6D200027183E /* ReceiptCopilotiOSUITests */,
+				A7DFE1AF2F0A6D6F0027183E /* ReceiptCopilotMac */,
+				A7DFE1BD2F0A6D700027183E /* ReceiptCopilotMacTests */,
+				A7DFE1C72F0A6D700027183E /* ReceiptCopilotMacUITests */,
+				A7DFE21E2F0A6EC30027183E /* Frameworks */,
 				A7DFE1562F0A6CCA0027183E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +221,21 @@
 				A7DFE1552F0A6CCA0027183E /* ReceiptCopilot.app */,
 				A7DFE1622F0A6CCC0027183E /* ReceiptCopilotTests.xctest */,
 				A7DFE16C2F0A6CCC0027183E /* ReceiptCopilotUITests.xctest */,
+				A7DFE1832F0A6D1F0027183E /* ReceiptCopilotiOS.app */,
+				A7DFE18F2F0A6D200027183E /* ReceiptCopilotiOSTests.xctest */,
+				A7DFE1992F0A6D200027183E /* ReceiptCopilotiOSUITests.xctest */,
+				A7DFE1AE2F0A6D6F0027183E /* ReceiptCopilotMac.app */,
+				A7DFE1BA2F0A6D700027183E /* ReceiptCopilotMacTests.xctest */,
+				A7DFE1C42F0A6D700027183E /* ReceiptCopilotMacUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A7DFE21E2F0A6EC30027183E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +309,144 @@
 			productReference = A7DFE16C2F0A6CCC0027183E /* ReceiptCopilotUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A7DFE1822F0A6D1F0027183E /* ReceiptCopilotiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DFE1A12F0A6D200027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotiOS" */;
+			buildPhases = (
+				A7DFE17F2F0A6D1F0027183E /* Sources */,
+				A7DFE1802F0A6D1F0027183E /* Frameworks */,
+				A7DFE1812F0A6D1F0027183E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A7DFE1842F0A6D1F0027183E /* ReceiptCopilotiOS */,
+			);
+			name = ReceiptCopilotiOS;
+			packageProductDependencies = (
+				A7DFE21F2F0A6EC30027183E /* ReceiptCore */,
+			);
+			productName = ReceiptCopilotiOS;
+			productReference = A7DFE1832F0A6D1F0027183E /* ReceiptCopilotiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7DFE18E2F0A6D200027183E /* ReceiptCopilotiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DFE1A42F0A6D200027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotiOSTests" */;
+			buildPhases = (
+				A7DFE18B2F0A6D200027183E /* Sources */,
+				A7DFE18C2F0A6D200027183E /* Frameworks */,
+				A7DFE18D2F0A6D200027183E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DFE1912F0A6D200027183E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7DFE1922F0A6D200027183E /* ReceiptCopilotiOSTests */,
+			);
+			name = ReceiptCopilotiOSTests;
+			packageProductDependencies = (
+			);
+			productName = ReceiptCopilotiOSTests;
+			productReference = A7DFE18F2F0A6D200027183E /* ReceiptCopilotiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7DFE1982F0A6D200027183E /* ReceiptCopilotiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DFE1A72F0A6D200027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotiOSUITests" */;
+			buildPhases = (
+				A7DFE1952F0A6D200027183E /* Sources */,
+				A7DFE1962F0A6D200027183E /* Frameworks */,
+				A7DFE1972F0A6D200027183E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DFE19B2F0A6D200027183E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7DFE19C2F0A6D200027183E /* ReceiptCopilotiOSUITests */,
+			);
+			name = ReceiptCopilotiOSUITests;
+			packageProductDependencies = (
+			);
+			productName = ReceiptCopilotiOSUITests;
+			productReference = A7DFE1992F0A6D200027183E /* ReceiptCopilotiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A7DFE1AD2F0A6D6F0027183E /* ReceiptCopilotMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DFE1CC2F0A6D700027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotMac" */;
+			buildPhases = (
+				A7DFE1AA2F0A6D6F0027183E /* Sources */,
+				A7DFE1AB2F0A6D6F0027183E /* Frameworks */,
+				A7DFE1AC2F0A6D6F0027183E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A7DFE1AF2F0A6D6F0027183E /* ReceiptCopilotMac */,
+			);
+			name = ReceiptCopilotMac;
+			packageProductDependencies = (
+				A7DFE2212F0A6ED20027183E /* ReceiptCore */,
+			);
+			productName = ReceiptCopilotMac;
+			productReference = A7DFE1AE2F0A6D6F0027183E /* ReceiptCopilotMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7DFE1B92F0A6D700027183E /* ReceiptCopilotMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DFE1CF2F0A6D700027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotMacTests" */;
+			buildPhases = (
+				A7DFE1B62F0A6D700027183E /* Sources */,
+				A7DFE1B72F0A6D700027183E /* Frameworks */,
+				A7DFE1B82F0A6D700027183E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DFE1BC2F0A6D700027183E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7DFE1BD2F0A6D700027183E /* ReceiptCopilotMacTests */,
+			);
+			name = ReceiptCopilotMacTests;
+			packageProductDependencies = (
+			);
+			productName = ReceiptCopilotMacTests;
+			productReference = A7DFE1BA2F0A6D700027183E /* ReceiptCopilotMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7DFE1C32F0A6D700027183E /* ReceiptCopilotMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DFE1D22F0A6D700027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotMacUITests" */;
+			buildPhases = (
+				A7DFE1C02F0A6D700027183E /* Sources */,
+				A7DFE1C12F0A6D700027183E /* Frameworks */,
+				A7DFE1C22F0A6D700027183E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DFE1C62F0A6D700027183E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7DFE1C72F0A6D700027183E /* ReceiptCopilotMacUITests */,
+			);
+			name = ReceiptCopilotMacUITests;
+			packageProductDependencies = (
+			);
+			productName = ReceiptCopilotMacUITests;
+			productReference = A7DFE1C42F0A6D700027183E /* ReceiptCopilotMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +468,28 @@
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = A7DFE1542F0A6CCA0027183E;
 					};
+					A7DFE1822F0A6D1F0027183E = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					A7DFE18E2F0A6D200027183E = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = A7DFE1822F0A6D1F0027183E;
+					};
+					A7DFE1982F0A6D200027183E = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = A7DFE1822F0A6D1F0027183E;
+					};
+					A7DFE1AD2F0A6D6F0027183E = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					A7DFE1B92F0A6D700027183E = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = A7DFE1AD2F0A6D6F0027183E;
+					};
+					A7DFE1C32F0A6D700027183E = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = A7DFE1AD2F0A6D6F0027183E;
+					};
 				};
 			};
 			buildConfigurationList = A7DFE1502F0A6CCA0027183E /* Build configuration list for PBXProject "ReceiptCopilot" */;
@@ -195,6 +501,9 @@
 			);
 			mainGroup = A7DFE14C2F0A6CCA0027183E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A7DFE21D2F0A6EA00027183E /* XCLocalSwiftPackageReference "../../Packages/ReceiptCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A7DFE1562F0A6CCA0027183E /* Products */;
 			projectDirPath = "";
@@ -203,6 +512,12 @@
 				A7DFE1542F0A6CCA0027183E /* ReceiptCopilot */,
 				A7DFE1612F0A6CCC0027183E /* ReceiptCopilotTests */,
 				A7DFE16B2F0A6CCC0027183E /* ReceiptCopilotUITests */,
+				A7DFE1822F0A6D1F0027183E /* ReceiptCopilotiOS */,
+				A7DFE18E2F0A6D200027183E /* ReceiptCopilotiOSTests */,
+				A7DFE1982F0A6D200027183E /* ReceiptCopilotiOSUITests */,
+				A7DFE1AD2F0A6D6F0027183E /* ReceiptCopilotMac */,
+				A7DFE1B92F0A6D700027183E /* ReceiptCopilotMacTests */,
+				A7DFE1C32F0A6D700027183E /* ReceiptCopilotMacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +538,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A7DFE16A2F0A6CCC0027183E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1812F0A6D1F0027183E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE18D2F0A6D200027183E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1972F0A6D200027183E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1AC2F0A6D6F0027183E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1B82F0A6D700027183E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1C22F0A6D700027183E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +610,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7DFE17F2F0A6D1F0027183E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE18B2F0A6D200027183E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1952F0A6D200027183E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1AA2F0A6D6F0027183E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1B62F0A6D700027183E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DFE1C02F0A6D700027183E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +664,26 @@
 			isa = PBXTargetDependency;
 			target = A7DFE1542F0A6CCA0027183E /* ReceiptCopilot */;
 			targetProxy = A7DFE16D2F0A6CCC0027183E /* PBXContainerItemProxy */;
+		};
+		A7DFE1912F0A6D200027183E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7DFE1822F0A6D1F0027183E /* ReceiptCopilotiOS */;
+			targetProxy = A7DFE1902F0A6D200027183E /* PBXContainerItemProxy */;
+		};
+		A7DFE19B2F0A6D200027183E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7DFE1822F0A6D1F0027183E /* ReceiptCopilotiOS */;
+			targetProxy = A7DFE19A2F0A6D200027183E /* PBXContainerItemProxy */;
+		};
+		A7DFE1BC2F0A6D700027183E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7DFE1AD2F0A6D6F0027183E /* ReceiptCopilotMac */;
+			targetProxy = A7DFE1BB2F0A6D700027183E /* PBXContainerItemProxy */;
+		};
+		A7DFE1C62F0A6D700027183E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7DFE1AD2F0A6D6F0027183E /* ReceiptCopilotMac */;
+			targetProxy = A7DFE1C52F0A6D700027183E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -538,6 +957,312 @@
 			};
 			name = Release;
 		};
+		A7DFE1A22F0A6D200027183E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceiptCopilotiOS/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan receipts to import them into the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7DFE1A32F0A6D200027183E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceiptCopilotiOS/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan receipts to import them into the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7DFE1A52F0A6D200027183E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiptCopilotiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReceiptCopilotiOS";
+			};
+			name = Debug;
+		};
+		A7DFE1A62F0A6D200027183E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiptCopilotiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReceiptCopilotiOS";
+			};
+			name = Release;
+		};
+		A7DFE1A82F0A6D200027183E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceiptCopilotiOS;
+			};
+			name = Debug;
+		};
+		A7DFE1A92F0A6D200027183E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceiptCopilotiOS;
+			};
+			name = Release;
+		};
+		A7DFE1CD2F0A6D700027183E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A7DFE1CE2F0A6D700027183E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A7DFE1D02F0A6D700027183E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiptCopilotMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReceiptCopilotMac";
+			};
+			name = Debug;
+		};
+		A7DFE1D12F0A6D700027183E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiptCopilotMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReceiptCopilotMac";
+			};
+			name = Release;
+		};
+		A7DFE1D32F0A6D700027183E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ReceiptCopilotMac;
+			};
+			name = Debug;
+		};
+		A7DFE1D42F0A6D700027183E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88RJF47YKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.radhikab1.ReceiptCopilotMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ReceiptCopilotMac;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -577,7 +1302,81 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A7DFE1A12F0A6D200027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DFE1A22F0A6D200027183E /* Debug */,
+				A7DFE1A32F0A6D200027183E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DFE1A42F0A6D200027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DFE1A52F0A6D200027183E /* Debug */,
+				A7DFE1A62F0A6D200027183E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DFE1A72F0A6D200027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DFE1A82F0A6D200027183E /* Debug */,
+				A7DFE1A92F0A6D200027183E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DFE1CC2F0A6D700027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DFE1CD2F0A6D700027183E /* Debug */,
+				A7DFE1CE2F0A6D700027183E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DFE1CF2F0A6D700027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DFE1D02F0A6D700027183E /* Debug */,
+				A7DFE1D12F0A6D700027183E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DFE1D22F0A6D700027183E /* Build configuration list for PBXNativeTarget "ReceiptCopilotMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DFE1D32F0A6D700027183E /* Debug */,
+				A7DFE1D42F0A6D700027183E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A7DFE21D2F0A6EA00027183E /* XCLocalSwiftPackageReference "../../Packages/ReceiptCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Packages/ReceiptCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7DFE21F2F0A6EC30027183E /* ReceiptCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7DFE21D2F0A6EA00027183E /* XCLocalSwiftPackageReference "../../Packages/ReceiptCore" */;
+			productName = ReceiptCore;
+		};
+		A7DFE2212F0A6ED20027183E /* ReceiptCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7DFE21D2F0A6EA00027183E /* XCLocalSwiftPackageReference "../../Packages/ReceiptCore" */;
+			productName = ReceiptCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A7DFE14D2F0A6CCA0027183E /* Project object */;
 }
